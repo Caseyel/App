@@ -11,21 +11,27 @@ def starte_meditation(meditation):
     print(f"Starte {meditation['name']} für {meditation['dauer']} Minuten.")
     print(meditation['beschreibung'])
     time.sleep(meditation['dauer'] * 60)
-    print(f"{meditation['name']} beendet.")
+    print(f"{meditation['name' {"name": "Body-Scan", "dauer": 15, "beschreibung": "Scanne deinen Körper und achte auf Spannungen."},
+] {"name": "Body-Scan", "dauer": 15, "beschreibung": "Scanne deinen Körper und achte auf Spannungen."},
+]]} beendet.")
 
 if __name__ == "__main":
-    print("Willkommen zur Meditations-App.")
+    print("Willkommen zur  {"name": "Body-Scan", "dauer": 15, "beschreibung": "Scanne deinen Körper und achte auf Spannungen."},
+]Meditations-App.")
     while True:
         print("Wähle eine Meditationsübung aus:")
         for i, meditation in enumerate(meditationen):
-            print(f"{i + 1}. {meditation['name']} ({meditation['dauer']} Minuten)")
+            print(f" {"name": "Body-Scan", "dauer": 15, "beschreibung": "Scanne deinen Körper und achte auf Spannungen."},
+]{i + 1}. {meditation['name']} ({meditation['dauer']} Minuten)")
 
-        auswahl = input("Gib die Nummer der Übung ein oder 'q' zum Beenden: ")
+        auswahl = inpu {"name": "Body-Scan", "dauer": 15, "beschreibung": "Scanne deinen Körper und achte auf Spannungen."},
+]t("Gib die Nummer der Übung ein oder 'q' zum Beenden: ")
         
         if auswahl == 'q':
             break
 
-        try:
+        try: {"name": "Body-Scan", "dauer": 15, "beschreibung": "Scanne deinen Körper und achte auf Spannungen."},
+]
             auswahl = int(auswahl)
             if 1 <= auswahl <= len(meditationen):
                 starte_meditation(meditationen[auswahl - 1])
