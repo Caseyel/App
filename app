@@ -25,11 +25,4 @@ if __name__ == "__main__":
         if auswahl == 'q':
             break
 
-        try:
-            auswahl = int(auswahl)
-            if 1 <= auswahl <= len(meditationen):
-                starte_meditation(meditationen[auswahl - 1])
-            else:
-                print("Selezione non valida. Scegli una pratica valida.")
-        except ValueError:
-            print("Input non valido. Inserisci il numero della pratica.")
+
