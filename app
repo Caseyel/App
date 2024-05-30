@@ -8,13 +8,7 @@ meditationen = [
 ]
     print(f"{meditation['name']} completato.")
 
-if __name__ == "__main__":
-    print("Benvenuto nell'app di meditazione.")
-    while True:
-        print("Scegli una pratica di meditazione:")
-        for i, meditation in enumerate(meditationen):
-            print(f"{i + 1}. {meditation['name']} ({meditation['dauer']} minuti) - {meditation['beschreibung']}")
-
+if __nam
 
 
 
