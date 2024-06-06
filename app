@@ -8,9 +8,7 @@ meditationen = [
 ]
     print(f"{meditation['name']} completato.")
 
-if __nam
-
-
+if __n
 
 
 def starte_meditation(meditation):
